@@ -104,7 +104,7 @@ BOOL CChatClientDlg::OnInitDialog()
 
 	// TODO: 여기에 추가 초기화 작업을 추가합니다.
 	m_Socket.Create();
-	if (m_Socket.Connect(_T("127.0.0.1"), 1004) == FALSE) {
+	if (m_Socket.Connect(_T("127.0.0.1"), 1005) == FALSE) {
 		AfxMessageBox(_T("ERROR: Failed to connect server"));
 		PostQuitMessage(0);
 
