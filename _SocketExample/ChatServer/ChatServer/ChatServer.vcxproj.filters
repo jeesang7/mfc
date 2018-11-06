@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChatClient.h">
+    <ClInclude Include="ChatServer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ChatClientDlg.h">
+    <ClInclude Include="ChatServerDlg.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
@@ -30,43 +30,42 @@
     <ClInclude Include="Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ConnectSocket.h">
+    <ClInclude Include="ListenSocket.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="test.h">
+    <ClInclude Include="ClientSocket.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChatClient.cpp">
+    <ClCompile Include="ChatServer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ChatClientDlg.cpp">
+    <ClCompile Include="ChatServerDlg.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ConnectSocket.cpp">
+    <ClCompile Include="ListenSocket.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="ClientSocket.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ChatClient.rc">
+    <ResourceCompile Include="ChatServer.rc">
       <Filter>리소스 파일</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\ChatClient.rc2">
+    <None Include="res\ChatServer.rc2">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="..\..\..\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\ChatClient.ico">
+    <Image Include="res\ChatServer.ico">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>
